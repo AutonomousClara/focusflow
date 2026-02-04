@@ -99,7 +99,7 @@ export default function StatsPage() {
               icon="⏱️"
               value={`${totalFocusTime}min`}
               label="Tempo focado"
-              variant="primary"
+              variant="default"
             />
             <StatsCard
               icon="⚠️"
