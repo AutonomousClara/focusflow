@@ -21,6 +21,7 @@ export default function AppPage() {
     currentState,
     timeRemaining,
     isRunning,
+    currentSession,
     currentTaskId,
     start,
     pause,
@@ -82,7 +83,8 @@ export default function AppPage() {
     return acc;
   }, 0);
 
-  const totalDistractions = focusSessions.reduce((acc, s) => acc + s.distractions.length, 0);
+  const totalDistractions = focusSessions.reduce((acc, s) => acc + s.distractions.length, 0) +
+    (currentSession?.distractions.length || 0);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-background via-background to-surface/30">
