@@ -120,15 +120,19 @@ export function useTimer(settings: Settings) {
   }, [currentState, getDuration]);
 
   const addDistraction = useCallback((duration: number) => {
+    console.log('⚡ addDistraction called:', duration, 's', 'currentSession:', currentSession);
     if (currentSession) {
       const distraction = {
         timestamp: Date.now(),
         duration,
       };
+      console.log('💾 Adding distraction to session:', distraction);
       setCurrentSession(prev => prev ? {
         ...prev,
         distractions: [...prev.distractions, distraction],
       } : null);
+    } else {
+      console.log('❌ No current session to add distraction to');
     }
   }, [currentSession]);
 
