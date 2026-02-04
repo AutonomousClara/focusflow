@@ -28,7 +28,7 @@ export function useDistraction(
         const duration = Math.floor((Date.now() - distractionStart) / 1000);
         console.log('✅ Back to focus! Duration:', duration, 's');
         
-        if (duration > 2) {
+        if (duration >= 1) {
           console.log('📊 Recording distraction:', duration, 's');
           onDistraction(duration);
           setLastDistractionDuration(duration);
@@ -40,7 +40,7 @@ export function useDistraction(
             setLastDistractionDuration(null);
           }, 5000);
         } else {
-          console.log('⏭️ Distraction too short, ignoring');
+          console.log('⏭️ Distraction too short (<1s), ignoring');
         }
         setDistractionStart(null);
       }
