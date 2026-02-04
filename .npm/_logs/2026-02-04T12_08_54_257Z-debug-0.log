@@ -1,0 +1,40 @@
+0 verbose cli /usr/bin/node /usr/lib/node_modules/npm/bin/npm-cli.js
+1 info using npm@10.8.2
+2 info using node@v20.20.0
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/workspace/projects/focusflow/.npmrc
+5 silly config load:file:/usr/etc/npmrc
+6 verbose title npm exec create-next-app@14 . --typescript --tailwind --app --no-src-dir --import-alias @/* --use-npm
+7 verbose argv "exec" "--" "create-next-app@14" "." "--typescript" "--tailwind" "--app" "--no-src-dir" "--import-alias" "@/*" "--use-npm"
+8 verbose logfile logs-max:10 dir:/workspace/projects/focusflow/.npm/_logs/2026-02-04T12_08_54_257Z-
+9 verbose logfile /workspace/projects/focusflow/.npm/_logs/2026-02-04T12_08_54_257Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+12 http fetch GET 200 https://registry.npmjs.org/npm 264ms
+13 http fetch GET 200 https://registry.npmjs.org/create-next-app 284ms (cache miss)
+14 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+15 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+16 warn exec The following package was not found and will be installed: create-next-app@14.2.35
+17 silly idealTree buildDeps
+18 silly fetch manifest create-next-app@14.2.35
+19 silly packumentCache full:https://registry.npmjs.org/create-next-app cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/create-next-app 220ms (cache miss)
+21 silly packumentCache full:https://registry.npmjs.org/create-next-app set size:undefined disposed:false
+22 silly placeDep ROOT create-next-app@14.2.35 OK for:  want: 14.2.35
+23 silly reify moves {}
+24 silly audit bulk request { 'create-next-app': [ '14.2.35' ] }
+25 silly tarball no local data for create-next-app@https://registry.npmjs.org/create-next-app/-/create-next-app-14.2.35.tgz. Extracting by manifest.
+26 http fetch GET 200 https://registry.npmjs.org/create-next-app/-/create-next-app-14.2.35.tgz 113ms (cache miss)
+27 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 226ms
+28 silly audit report {}
+29 verbose cwd /workspace/projects/focusflow
+30 verbose os Linux 6.12.54-linuxkit
+31 verbose node v20.20.0
+32 verbose npm  v10.8.2
+33 notice
+33 notice New major version of npm available! 10.8.2 -> 11.8.0
+33 notice Changelog: https://github.com/npm/cli/releases/tag/v11.8.0
+33 notice To update run: npm install -g npm@11.8.0
+33 notice  { force: true, [Symbol(proc-log.meta)]: true }
+34 verbose exit 1
+35 verbose code 1

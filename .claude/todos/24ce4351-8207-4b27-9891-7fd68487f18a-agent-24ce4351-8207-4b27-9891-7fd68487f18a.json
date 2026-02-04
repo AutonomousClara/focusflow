@@ -1,0 +1,57 @@
+[
+  {
+    "content": "Configurar estrutura Next.js 14 com Tailwind CSS",
+    "status": "completed",
+    "activeForm": "Configurando estrutura Next.js 14 com Tailwind CSS"
+  },
+  {
+    "content": "Implementar tipos e interfaces TypeScript",
+    "status": "completed",
+    "activeForm": "Implementando tipos e interfaces TypeScript"
+  },
+  {
+    "content": "Criar hooks para localStorage e timer",
+    "status": "completed",
+    "activeForm": "Criando hooks para localStorage e timer"
+  },
+  {
+    "content": "Implementar detecção de distrações",
+    "status": "completed",
+    "activeForm": "Implementando detecção de distrações"
+  },
+  {
+    "content": "Criar componentes UI (TimerDisplay, Controls, TaskList, StatsCard)",
+    "status": "completed",
+    "activeForm": "Criando componentes UI"
+  },
+  {
+    "content": "Implementar página principal /app com timer",
+    "status": "completed",
+    "activeForm": "Implementando página principal /app com timer"
+  },
+  {
+    "content": "Criar página de relatórios /app/stats",
+    "status": "in_progress",
+    "activeForm": "Criando página de relatórios /app/stats"
+  },
+  {
+    "content": "Criar página de configurações /app/settings",
+    "status": "pending",
+    "activeForm": "Criando página de configurações /app/settings"
+  },
+  {
+    "content": "Implementar landing page /",
+    "status": "pending",
+    "activeForm": "Implementando landing page /"
+  },
+  {
+    "content": "Adicionar sons de notificação",
+    "status": "pending",
+    "activeForm": "Adicionando sons de notificação"
+  },
+  {
+    "content": "Fazer commits atômicos",
+    "status": "pending",
+    "activeForm": "Fazendo commits atômicos"
+  }
+]
